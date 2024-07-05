@@ -51,11 +51,18 @@ Just run:
 
 ## Docker image
 
-Docker can also be used to build and run the app from an image:
+A pre-built image is available in [Docker Hub](https://hub.docker.com/r/harbdog/behavior_tree_editor):
+
+```bash
+docker pull harbdog/behavior_tree_editor:latest
+docker run -it --rm -p 8000:8000 harbdog/behavior_tree_editor:latest
+```
+
+This will run a web server in a container available at `http://127.0.0.1:8000`.
+
+To build the image from source:
 
 ```bash
 docker build . --no-cache -t btree:latest
 docker run -it --rm -p 8000:8000 btree:latest
 ```
-
-This will run a web server in a container available at `http://127.0.0.1:8000`.
