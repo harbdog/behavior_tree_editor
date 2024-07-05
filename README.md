@@ -1,10 +1,6 @@
 # Behavior Tree Editor
 
-This tool has been adapted for the [Bot Testing Framework](https://hexdocs.pm/bot_army/1.0.0/readme.html) based on the existing [Behavior3 Editor](https://github.com/behavior3/behavior3editor/).
-
-> See the [Releases tab](https://github.com/adobe/behavior_tree_editor/releases) to download a native (Mac only) application that will save and load flies from disk (recommended).
->
-> You can also access a [web app](https://opensource.adobe.com/behavior_tree_editor/#/dash/home) version. Your data will be saved in your browser's local storage. Use "Project > Import > Project as JSON" and "Project > Export > Project as JSON" to load/save from/to a local source controlled .json file for running the tests.
+This tool is based on the existing [Behavior3 Editor](https://github.com/behavior3/behavior3editor/).
 
 ![interface preview](preview.png)
 
